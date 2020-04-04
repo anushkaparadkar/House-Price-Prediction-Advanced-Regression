@@ -26,11 +26,6 @@
 #Getting data
 df <- read.csv("train.csv")
 test_df <- read.csv("test.csv") 
-
-
-
-test_df$SalePrice <- 0
-final_df <-rbind(df,test_df)
 #EDA
 head(df)
 library(ggplot2)
